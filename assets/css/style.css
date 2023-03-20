@@ -113,3 +113,29 @@ Navbar
     color: rgb(255, 0, 0);
 }
 
+/*=============
+Gallery
+============== */
+
+.container-gallery {
+    margin-left: 200px;
+    max-width: 100%;
+    padding: 2.5rem;
+}
+
+.gallery {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.card {
+    border: 3px;
+}
+
+.card img {
+    max-width: 100%;
+    display: block;
+}
+
+
